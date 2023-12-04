@@ -9,11 +9,11 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-public class MainActivity<Onlick> extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     ListView simplelistview;
 
-    String Series[]={"breakingbad","sherlock holmes","chernobyl","friends","lost","gangs of london","banshee","black mirror"};
+    String Series[]={"breaking bad","sherlock holmes","chernobyl","friends","lost","gangs of london","banshee","black mirror"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
